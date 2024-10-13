@@ -45,10 +45,11 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        'royal-blue' : { 1 : '#083344',
-         2 : '#0891b2',
-         3 : '#0e7490' },
-        
+        'slate' : { 1 : '#020617'},
+         'Nardo-Gray' : ' #61919e'
+
+
+         
         
       },
       animation: {

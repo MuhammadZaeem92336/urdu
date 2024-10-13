@@ -1,0 +1,84 @@
+{
+    "courses": [
+        {
+        "id" : 1,
+        "title" : "game development",
+        "slug" : "game-development",
+        "description" : "lorem ispum",
+        "price" : "99.99",
+        "instructor" : "mali",
+        "isFeatured" : false,
+        "images" : "code.png"
+        },
+        {
+            "id" : 1,
+            "title" : "Game Development",
+            "slug" : "game-development",
+            "description" : "Game development blends creativity and technology, involving design, programming, and storytelling to create engaging experiences that captivate players worldwide.",
+            "price" : "99.99",
+            "instructor" : "mali",
+            "isFeatured" : true,
+            "images" : "code.png"
+            },
+            {
+                "id" : 1,
+                "title" : "game development",
+                "slug" : "game-development",
+                "description" : "lorem ispum",
+                "price" : "99.99",
+                "instructor" : "mali",
+                "isFeatured" : false,
+                "images" : "code.png"
+                },
+                {
+                    "id" : 1,
+                    "title" : "App Development",
+                    "slug" : "app-development",
+                    "description" : "App development focuses on designing and building software applications for mobile or web platforms, enhancing user experiences through functionality and innovation.",
+                    "price" : "99.99",
+                    "instructor" : "mali",
+                    "isFeatured" : true,
+                    "images" : "code.png"
+                    },
+                    {
+                        "id" : 1,
+                        "title" : "Graphic Designing",
+                        "slug" : "graphic-designing",
+                        "description" : "Graphic design combines art and technology to communicate ideas visually using typography imagery and layout to create compelling and effective designs.",
+                        "price" : "99.99",
+                        "instructor" : "mali",
+                        "isFeatured" : true,
+                        "images" : "code.png"
+                        },
+                        {
+                            "id" : 1,
+                            "title" : "Freelancing",
+                            "slug" : "freelancing",
+                            "description" : "Freelancing offers flexibility and independence allowing individuals to choose projects manage their time and work with diverse clients across various industries.",
+                            "price" : "99.99",
+                            "instructor" : "mali",
+                            "isFeatured" : true,
+                            "images" : "code.png"
+                            },
+                            {
+                                "id" : 1,
+                                "title" : "Creative Writing",
+                                "slug" : "creative-writing",
+                                "description" : "Creative writing involves crafting original narratives poetry and prose that evoke emotions engage readers and explore the depths of human experience.",
+                                "price" : "99.99",
+                                "instructor" : "mali",
+                                "isFeatured" : true,
+                                "images" : "code.png"
+                                },
+                                {
+                                    "id" : 1,
+                                    "title" : "Virtual Assistant",
+                                    "slug" : "virtual-assistant",
+                                    "description" : "A virtual assistant provides remote administrative support to businesses and entrepreneurs managing tasks such as scheduling communication and project organization efficiently.",
+                                    "price" : "99.99",
+                                    "instructor" : "mali",
+                                    "isFeatured" : true,
+                                    "images" : "code.png"
+                                    }
+    ]
+}

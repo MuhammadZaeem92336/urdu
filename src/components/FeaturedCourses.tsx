@@ -45,7 +45,7 @@ const FeaturedCourses = () => {
           </BackgroundGradient>
           </div>
 
-        ))}
+))}
         </div>
       </div>
 

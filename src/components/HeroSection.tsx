@@ -31,6 +31,7 @@ const HeroSection = () => {
             </Button>
           </Link>
         </div>
+        <div></div>
       </div>
     </div>
   );

@@ -37,7 +37,7 @@ const Footer = () => {
         <p>. <br />.</p>
       </div>
     </div>
-    <p className='flex justify-center p-2'>© 2024 | Convert Your Theme Into Code</p>
+    <p className='flex justify-center p-2 text-white'>© 2024 Zaeem | Convert Your Theme Into Code | All Rights Reserved</p>
     </footer>
   )
 }

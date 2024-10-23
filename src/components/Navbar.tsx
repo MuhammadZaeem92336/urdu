@@ -14,7 +14,7 @@ function Navbar({ }: { className?: string }) {
             <Link href="/" onClick={() => ("Home")}>Home</Link>
         </MenuItem>
         <MenuItem setActive={setActive} active={active} item="Courses">
-            <Link href="/course" onClick={() => ("Courses")}>Courses</Link>
+            <Link href="/courses" onClick={() => ("Courses")}>Courses</Link>
         </MenuItem>
         <MenuItem setActive={setActive} active={active} item="Contact">
             <Link href="/contact" onClick={() => ("Contact Me")}>Contact Me</Link>

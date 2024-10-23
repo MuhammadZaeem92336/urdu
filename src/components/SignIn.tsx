@@ -17,7 +17,7 @@ export function SignupFormDemo() {
   return (
     <div className="max-w-md w-full mx-auto rounded-none md:rounded-2xl p-4 md:p-8 shadow-input bg-transparent dark:bg-black">
       <h2 className="font-bold text-xl text-transparent dark:text-neutral-200">
-        Welcome to Aceternity
+        Signup
       </h2>
       <p className="text-transparent text-sm max-w-sm mt-2 dark:text-transparent">
         Login to aceternity if you can because we don&apos;t have a login flow

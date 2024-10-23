@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className='bg-black text-gray-400 py-12 bottom-0 left-0 w-full'>
+    <footer className='bg-black text-gray-400 py-12 bottom-0 left-0 w-full  '>
     <div className='max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-4 sm:;px-6 lg:px-8'>
       <div>
         <h3 className='text-lg font-bold text-white mb-4'>About Us</h3>
@@ -30,8 +30,8 @@ const Footer = () => {
       </div>
       <div>
         <h3 className='text-lg font-bold text-white mb-4'>Contact Us</h3>
-        <p>Email <a href="/.mail@gmail.com"><span className='hover:text-white hover:underline'> zaeem.elegantbiz@gmail.com</span></a></p>
-        <p>Phone  <span className='hover:text-white hover:cursor-pointer hover:underline'><br /> 0311-4533459</span></p>
+        <p>Email :<a href="/.mail@gmail.com"><span className='hover:text-white hover:underline'> zaeem.elegantbiz@gmail.com</span></a></p>
+        <p>Phone  :<span className='hover:text-white hover:cursor-pointer hover:underline'><br /> 0311-4533459</span></p>
       </div>
       <div className='text-black justift-left'>
         <p>. <br />.</p>
@@ -42,4 +42,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default Footer;

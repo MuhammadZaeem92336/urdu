@@ -15,7 +15,7 @@ export function SignupFormDemo() {
     console.log("Form submitted");
   };
   return (
-    <div className="max-w-md w-full mx-auto rounded-none md:rounded-2xl p-4 md:p-8 shadow-input bg-transparent dark:bg-black">
+    <div className="max-w-md w-full mx-auto rounded-none md:rounded-2xl p-4 md:p-8 shadow-input bg-transparent dark:bg-transparent">
       <h2 className="font-bold text-xl text-transparent dark:text-neutral-200">
         Signup
       </h2>

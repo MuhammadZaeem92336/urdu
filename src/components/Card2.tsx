@@ -1,44 +1,55 @@
 "use client";
-import React from "react";
-import {
-  GlowingStarsBackgroundCard,
-  GlowingStarsDescription,
-  GlowingStarsTitle,
-} from "./ui/glowing-stars";
 
-export function GlowingStarsBackgroundCardPreview2() {
+import Image from "next/image";
+import React from "react";
+import { CardBody, CardContainer, CardItem } from "./ui/3d-card";
+import Link from "next/link";
+
+export function ThreeDCardDemo2() {
   return (
-    <div className="flex py-20 items-center justify-center antialiased">
-      <GlowingStarsBackgroundCard>
-        <GlowingStarsTitle>App Development</GlowingStarsTitle>
-        <div className="flex justify-between items-end">
-          <GlowingStarsDescription>
-          App development requires innovation design coding and testing.
-          </GlowingStarsDescription>
-          <div className="h-8 w-8 rounded-full bg-[hsla(0,0%,100%,.1)] flex items-center justify-center">
-            <Icon />
-          </div>
+    <CardContainer className="inter-var">
+      <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
+        <CardItem
+          translateZ="50"
+          className="text-xl font-bold text-neutral-600 dark:text-white"
+        >
+          Graphic Designing
+        </CardItem>
+        <CardItem
+          as="p"
+          translateZ="60"
+          className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
+        >
+          Graphic design combines art and technology to communicate ideas visually using typography imagery and layout to create compelling and effective designs.
+        </CardItem>
+        <CardItem translateZ="100" className="w-full mt-4">
+          <Image
+            src="/design.jpeg"
+            height="1000"
+            width="1000"
+            className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
+            alt="thumbnail"
+          />
+        </CardItem>
+        <div className="flex justify-between items-center mt-20">
+          <CardItem
+            translateZ={20}
+            as={Link}
+            href="https://twitter.com/mannupaaji"
+            target="__blank"
+            className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+          >
+            Try Demo →
+          </CardItem>
+          <CardItem
+            translateZ={20}
+            as="button"
+            className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+          >
+            Buy Now
+          </CardItem>
         </div>
-      </GlowingStarsBackgroundCard>
-    </div>
+      </CardBody>
+    </CardContainer>
   );
 }
-
-const Icon = () => {
-  return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      fill="none"
-      viewBox="0 0 24 24"
-      stroke-width="1.5"
-      stroke="currentColor"
-      className="h-4 w-4 text-white stroke-2"
-    >
-      <path
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
-      />
-    </svg>
-  );
-};

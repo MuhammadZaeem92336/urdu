@@ -1,23 +1,23 @@
 'use client'
-
-import { GlowingStarsBackgroundCardPreview1 } from '@/components/Card1'
-import { GlowingStarsBackgroundCardPreview2 } from '@/components/Card2'
-import { GlowingStarsBackgroundCardPreview3 } from '@/components/Card3'
-import { GlowingStarsBackgroundCardPreview4 } from '@/components/Card4'
-import { GlowingStarsBackgroundCardPreview5 } from '@/components/Card5'
-import { GlowingStarsBackgroundCardPreview6 } from '@/components/Card6'
+import { ThreeDCardDemo1 } from '@/components/Card1'
+import { ThreeDCardDemo2 } from '@/components/Card2'
+import { ThreeDCardDemo3 } from '@/components/Card3'
+import { ThreeDCardDemo4 } from '@/components/Card4'
+import { ThreeDCardDemo5 } from '@/components/Card5'
+import { ThreeDCardDemo } from '@/components/CardEffect'
 import React from 'react'
 
 const page = () => {
   return (
     <div className='bg-slate-1'>
     <div>
-      <GlowingStarsBackgroundCardPreview1/>
-      <GlowingStarsBackgroundCardPreview2/>
-      <GlowingStarsBackgroundCardPreview3/>
-      <GlowingStarsBackgroundCardPreview4/>
-      <GlowingStarsBackgroundCardPreview5/>
-      <GlowingStarsBackgroundCardPreview6/>
+      <h1 className='text-white text-5xl font-bold text-center pt-40'>All Courses (6)</h1>
+      <ThreeDCardDemo/>
+      <ThreeDCardDemo1/>
+      <ThreeDCardDemo2/>
+      <ThreeDCardDemo3/>
+      <ThreeDCardDemo4/>
+      <ThreeDCardDemo5/>
     </div>
     </div>
   )
